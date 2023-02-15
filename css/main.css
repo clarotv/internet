@@ -1,0 +1,3530 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  outline: none;
+  font-family: "AMX";
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  padding-top: var(--spacing-stack-xl);
+}
+
+.main {
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+
+  .container-line {
+    display: none !important;
+  }
+
+  .claro-tv .text h3 {
+    font-size: 29px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+header .mdn-Header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+header .dnis {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  margin-top: 10px;
+  height: 50px;
+  background-color: #a61d19;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--font-weight-medium);
+}
+header .dnis a {
+  text-decoration: none;
+  color: #fff;
+  font-size: var(--font-size-xs);
+  padding: 0 10px;
+  text-decoration: none;
+}
+header .fone-desk {
+  display: none;
+}
+header .Icon-whatsapp-gtm {
+  color: green;
+  text-decoration: none;
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  header .dnis {
+    display: none;
+  }
+  header .dnis-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  header .dnis-desk .fone-desk {
+    display: flex;
+    align-items: center;
+  }
+  header .dnis-desk span {
+    padding-right: var(--spacing-stack-sm);
+    padding-left: var(--spacing-stack-xxs);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .container-line {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .dnis {
+    display: none;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 468px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 297px;
+  }
+
+  .claro-na-copa > .container {
+    width: 100%;
+    height: 1200px;
+  }
+
+  .itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 21rem;
+  }
+
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    top: 21rem;
+  }
+
+  .claro-na-copa .direita {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    top: 22rem;
+  }
+
+  .text-off {
+    font-weight: var(--font-weight-medium);
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 20rem;
+    text-transform: uppercase;
+  }
+
+  .promo {
+    position: relative;
+    right: 20px;
+  }
+
+  .text {
+    position: relative;
+    left: 81px;
+  }
+
+  .computed {
+    position: relative;
+  }
+
+  .multi {
+    position: relative;
+    left: 36px;
+  }
+
+  header .dnis-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  header .dnis-desk .fone-desk {
+    display: flex;
+    align-items: center;
+  }
+  header .dnis-desk span {
+    padding-right: 25px;
+    padding-left: 10px;
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+  }
+}
+.active-body {
+  overflow: hidden;
+  opacity: 0.5;
+}
+body {
+  background: black;
+  overflow-x: hidden;
+}
+.overflowHidden {
+  overflow: hidden;
+  opacity: 0.5;
+}
+.box-cep {
+  float: right;
+  height: 100vh;
+  width: 370px;
+  background-color: #fff;
+  top: -336px;
+  padding: 15px;
+  z-index: 9999;
+  transform: translateX(0);
+  transition: transform 150ms ease;
+  right: 2px;
+  top: 0px;
+  position: fixed;
+}
+.box-cep #fechar {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 800;
+  color: #000;
+  float: right;
+}
+.box-cep .para-prosseguir {
+  color: #e32620;
+  font-weight: 500;
+  font-size: 23px;
+  padding: 20px 0;
+}
+.box-cep .o-sinal {
+  color: #000;
+  font-size: 18px;
+  padding: 15px 0;
+}
+.box-cep .btn-contrate {
+  background: #fca61d;
+  border-radius: 28px;
+  font-weight: bold;
+  color: #353535;
+  font-size: 16px;
+  padding: 10px 35px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.box-cep .btn-contrate:hover,
+.box-cep .btn-contrate:focus,
+.box-cep .btn-contrate:active {
+  color: #353535;
+}
+.box-cep .color-link {
+  color: #000;
+  font-weight: 600;
+}
+.box-cep .nao-sei-o-cep {
+  padding: 15px 0;
+}
+.box-cep .input-group {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+}
+.box-cep .form-control {
+  height: 60px;
+  border-radius: 12px;
+  padding: 10px;
+}
+.box-cep #cep {
+  width: 110px;
+}
+.box-cep #numero {
+  width: 110px;
+}
+#minhaDiv.active .box-cep {
+  transform: translateX(600px);
+}
+#minhaDiv .ceperror {
+  margin: 0;
+  position: relative;
+  top: -10px;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  color: red;
+  display: none;
+}
+@media only screen and (max-width: 450px) {
+  .box-cep {
+    width: 288px;
+  }
+  .box-cep .para-prosseguir {
+    font-size: 17px;
+  }
+  .box-cep .o-sinal {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  .mdn-Swiper-slide {
+    width: 100% !important;
+  }
+
+  .mdn-Swiper-slide .mdn-Card {
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 80%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+  }
+}
+@media only screen and (max-width: 360px) {
+  .box-cep {
+    width: 250px;
+  }
+  .box-cep .para-prosseguir {
+    font-size: 15px;
+  }
+  .box-cep .o-sinal {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+}
+footer {
+  color: black;
+}
+footer .Portais {
+  display: flex;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+footer .link-privacidade {
+  color: white;
+  font-size: 12px;
+}
+
+section.now .logo-lg {
+  display: none;
+}
+
+@media screen and (min-width: 1366px) {
+  section.now .logo-lg {
+    display: block;
+    text-align: left;
+  }
+
+  section.now .logo-now {
+    display: none !important;
+  }
+
+  section.now .mdn-Text {
+    padding-left: 0 !important;
+  }
+  section.now .stores {
+    margin-left: 0 !important;
+    justify-content: start !important;
+  }
+}
+
+section.produtos .mdn-Container {
+  max-width: 75.5rem;
+}
+
+section.produtos .mdn-Swiper .mdn-Swiper-wrapper .mdn-Swiper-slide {
+  width: 300px;
+  margin-right: 0;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card-colorSurface {
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+}
+section.produtos .mdn-Swiper .mdn-Swiper-wrapper .mdn-Swiper-slide .mdn-Card {
+  width: 270px;
+  outline: none;
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 7px;
+  height: 453px;
+  text-align: center;
+}
+
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .no-click {
+  margin-top: auto;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .selo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts-box-combo {
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts-box-combo
+  h1 {
+  font-size: 59px;
+  color: #e3262e;
+  line-height: 59px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts-box-combo
+  h2 {
+  font-size: 29px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts-box-combo
+  hr {
+  border-top: 1px solid #a5a5a5;
+  width: 90%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts-box-combo
+  p {
+  margin-top: 33px;
+  line-height: 23px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: -21px;
+
+  color: #000;
+  text-align: center;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts {
+  text-align: center;
+}
+section.produtos .mdn-Swiper .mdn-Swiper-wrapper small {
+  color: #353535;
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: var(--font-weight-medium);
+  position: relative;
+  bottom: 23px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-mega {
+  margin-bottom: 37px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-mega
+  .title {
+  font-size: 28px;
+  color: #da291c;
+  padding: 0;
+  margin: 0;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .para-sua-casa {
+  color: #da291c;
+  text-transform: uppercase;
+  font-size: 26px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section.produtos
+    .mdn-Swiper
+    .mdn-Swiper-wrapper
+    .mdn-Swiper-slide
+    .mdn-Card
+    .txts
+    .para-sua-casa {
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 710px;
+    background-image: url(https://www.claro.com.br/);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 63px;
+  }
+
+  .claro-na-copa > .container {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    bottom: 9rem;
+  }
+
+  .itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0rem;
+  }
+
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    top: 17rem;
+  }
+
+  .claro-na-copa .direita {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    top: 17rem;
+  }
+
+  .text-off {
+    font-weight: var(--font-weight-medium);
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 20rem;
+    text-transform: uppercase;
+  }
+
+  .promo {
+    position: relative;
+    right: 20px;
+  }
+
+  .newButton {
+    top: 60px !important;
+    cursor: pointer;
+  }
+
+  .display-tablet {
+    display: block;
+    position: relative;
+    right: 0;
+    left: 235px;
+    bottom: 76px;
+  }
+
+  .computed {
+    position: relative;
+    top: -115px;
+    left: 233px;
+    width: 414px;
+  }
+
+  .multi {
+    position: relative;
+    left: 36px;
+    top: 25px;
+  }
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .icons {
+  font-size: 75px;
+  color: #da291c;
+  display: inline-block;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .icons
+  .mdn-Icon--lg::before {
+  font-size: 2.2rem;
+  display: block;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-all {
+  display: flex;
+  align-items: center;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .mega-250 {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .mega-250
+  .text-wrapper {
+  color: #5f646d;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 50px;
+  margin-left: 12px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .mega-250
+  .text-wrapper
+  .com {
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-tv-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-bottom: 65px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-tv-wrapper
+  .box-tv {
+  display: inline-block;
+  margin-left: 12px;
+  text-align: left;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-tv-wrapper
+  .box-tv
+  .tv-facil {
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #5f646d;
+  font-weight: 500;
+  width: max-content;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-tv-wrapper
+  .box-tv
+  .tv-facil
+  span {
+  font-size: 10px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .virtua-wrapper {
+  margin-bottom: 20px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-com-e-leve {
+  display: flex;
+  align-items: center;
+  width: 205px;
+  margin: 0 auto;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper {
+  padding-bottom: 19px;
+  width: 205px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .icons {
+  margin-top: -26px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps {
+  display: inline-block;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps
+  .title {
+  color: #5f646d;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-end;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps
+  .title
+  .box-extra-play {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 8px;
+  font-weight: bold;
+  color: #e3262e;
+  margin-left: 7px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps
+  .title
+  .box-extra-play
+  .bolinha-twitch {
+  margin-left: 1px;
+  margin-right: 4px;
+  width: 21px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps
+  .title
+  .box-extra-play
+  .box-extra-play-int {
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+  border-radius: 13px;
+  width: 78px;
+  height: 33px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps
+  .title
+  .box-extra-play
+  .box-extra-play-int
+  .bolinha-now {
+  width: 21px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps
+  .sub-title {
+  color: #000;
+  font-size: 11px;
+  padding-top: 5px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps
+  .apps {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  display: flex;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apps-wrapper
+  .box-apps
+  .apps
+  img {
+  padding-left: 3px;
+  width: 24px;
+  margin-right: 4px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-last-text {
+  padding-bottom: 34px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .box-last-text
+  p {
+  width: max-content;
+  color: #5f646d;
+  font-size: 14px;
+  line-height: 18px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .por-apenas {
+  line-height: 17px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #353535;
+  text-align: center;
+  visibility: hidden;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta {
+  display: flex;
+  justify-content: center;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span {
+  color: #da291c;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span.por {
+  margin-top: 4px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span.por,
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span.apenas {
+  font-weight: 500;
+  text-align: left;
+  font-size: 10px;
+  line-height: 12px;
+  display: block;
+  text-transform: uppercase;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span.rs {
+  font-weight: var(--font-weight-bold);
+  font-size: 35px;
+  line-height: 1.25;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span.real {
+  font-weight: var(--font-weight-bold);
+  font-size: 86px;
+  line-height: 74px;
+  letter-spacing: -3px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span.virgula {
+  font-weight: var(--font-weight-bold);
+  font-size: 24px;
+  margin-left: -10px;
+  margin-right: 5px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span.centavos {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: var(--font-weight-bold);
+  display: block;
+  margin-top: 3px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .oferta
+  span.mes {
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 500;
+  display: block;
+  margin-left: 10px;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .com {
+  color: #000;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .com
+  img {
+  max-height: 16px;
+  position: relative;
+  top: 4px;
+  display: inline-block;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .com
+  strong {
+  text-transform: initial;
+  font-size: 17px;
+  color: #353535;
+  font-weight: 400;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .txts
+  .apos {
+  color: #353535;
+  font-size: 14px;
+  font-weight: 400;
+}
+section.produtos
+  .mdn-Swiper
+  .mdn-Swiper-wrapper
+  .mdn-Swiper-slide
+  .mdn-Card
+  .padding-card1-2-4 {
+  padding-bottom: 10px;
+}
+section.produtos .mdn-Swiper .mdn-Swiper-pagination {
+  position: relative;
+  top: 10px;
+}
+section.produtos .mdn-Swiper .arrows {
+  display: flex;
+  justify-content: center;
+}
+
+.mdn-Swiper-button-prev,
+.mdn-Swiper-rtl .mdn-Swiper-button-next {
+  background-color: #e3262e;
+  color: white;
+}
+
+.mdn-Swiper-button-next,
+.mdn-Swiper-rtl .mdn-Swiper-button-prev {
+  background-color: #e3262e;
+  color: white;
+}
+
+section.produtos .mdn-Swiper .arrows div {
+  color: white;
+}
+
+section.produtos .mdn-Swiper .arrows .mdn-Swiper-button-prev {
+  margin-right: 10px;
+}
+
+@media (min-width: 1024px) {
+  section.produtos {
+    background: #f8f8f8;
+  }
+
+  .display-tablet {
+    display: none;
+  }
+  /* section.produtos .mdn-Swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    transform: none !important;
+  } */
+  /* section.produtos .mdn-Swiper .mdn-Swiper-wrapper .mdn-Swiper-slide {
+    width: min-content !important;
+  } */
+}
+section.netflix {
+  background: url(https://www.claro.com.br/) no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 680px;
+  margin-top: -2px;
+}
+section.netflix .content-netflix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  padding-top: 122vw;
+  text-transform: uppercase;
+}
+section.netflix .content-netflix h3 {
+  font-size: 16px;
+  width: 256px;
+  font-weight: normal;
+  line-height: 22px;
+}
+section.netflix .content-netflix .desk {
+  display: none;
+}
+section.netflix .content-netflix p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+section.netflix .content-netflix .box-netflix {
+  height: 200px;
+  width: 290px;
+  margin: 20px 0;
+  background: url(https://www.claro.com.br/) no-repeat;
+}
+section.netflix .content-netflix .box-netflix .mdn-Icon--lg::before {
+  font-size: 6rem;
+}
+section.netflix .content-netflix .box-netflix .title-box {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: -100px;
+  position: relative;
+  top: -30px;
+}
+section.netflix .content-netflix .box-netflix .sub-title-box {
+  font-size: 16px;
+  margin-top: 20px;
+}
+section.netflix .mdn-Swiper-slide {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px 0;
+}
+section.netflix .mdn-Swiper-slide .title {
+  padding: 15px 0;
+  font-size: 24px;
+}
+section.netflix .mdn-Swiper-slide .sub-title {
+  font-size: 16px;
+}
+section.netflix .mdn-Swiper-pagination {
+  padding: 30px 0;
+}
+section.netflix .icons-netflix {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+section.netflix .icons-netflix img {
+  display: block;
+  margin: 0 auto;
+  width: 126px;
+}
+section.netflix .botao-netflix {
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (min-width: 360px) {
+  section.netflix {
+    height: 732px;
+  }
+}
+@media screen and (min-width: 360px) {
+  section.netflix {
+    height: 787px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section.netflix {
+    background: url(https://www.claro.com.br/) no-repeat center;
+    height: 450px;
+    background-size: cover;
+    padding-left: 64%;
+  }
+
+  .promo {
+    display: none;
+  }
+
+  section.bandalarga .botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    position: relative;
+    left: -69px;
+  }
+
+  .price-desktop {
+    display: none !important;
+  }
+
+  .price-tablet {
+    display: block !important;
+    position: relative;
+    top: 0rem;
+    right: 53px;
+  }
+
+  section.netflix .content-netflix {
+    padding-top: 72px;
+    padding-left: 0;
+    text-align: left;
+    width: 540px;
+  }
+  section.netflix .content-netflix .box-netflix {
+    margin: 0;
+  }
+  section.netflix .content-netflix h3 {
+    font-size: 16px;
+    width: 540px;
+  }
+  section.netflix .icons-netflix {
+    margin-top: 17px;
+    margin-bottom: 26px;
+  }
+  section.netflix .icons-netflix img {
+    margin: 0;
+  }
+  section.netflix .mdn-Swiper-slide {
+    padding: 0;
+  }
+  section.netflix .mdn-Swiper-pagination {
+    padding: 0;
+  }
+  section.netflix .botao-netflix {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section.netflix {
+    background: url(https://www.claro.com.br/) no-repeat center;
+    height: 560px;
+  }
+  section.netflix .content-netflix {
+    width: 540px;
+    padding-top: 200px;
+    text-align: initial;
+  }
+  section.netflix .content-netflix .box-netflix {
+    margin: 0;
+  }
+  section.netflix .content-netflix h3 {
+    font-size: 24px;
+    width: 540px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  section.netflix .content-netflix .desk {
+    display: block;
+  }
+  section.netflix .content-netflix .mob-tab {
+    display: none;
+  }
+  section.netflix .icons-netflix {
+    margin-top: 18px;
+    margin-bottom: 33px;
+  }
+  section.netflix .icons-netflix img {
+    margin: 0;
+    width: 150px;
+  }
+  section.netflix .mdn-Swiper-slide {
+    padding: 0;
+  }
+  section.netflix .mdn-Swiper-pagination {
+    padding: 0;
+  }
+  section.netflix .botao-netflix {
+    margin-left: 0px;
+  }
+}
+section.bandalarga {
+  background: url(https://www.claro.com.br/) no-repeat top;
+  background-size: 100% auto;
+  height: 920px;
+  overflow: hidden;
+  z-index: 1;
+  margin-top: -5px;
+}
+section.bandalarga .mdn-Container {
+  height: 100%;
+}
+section.bandalarga .mdn-Container .mdn-Row {
+  height: 100%;
+}
+section.bandalarga .banda-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+section.bandalarga .spr-TopicGroup {
+  margin-top: auto;
+  color: var(--color-brand-primary-medium);
+}
+section.bandalarga .spr-TopicGroup .mdn-Topic {
+  margin-bottom: var(--spacing-stack-xs);
+  color: var(--color-brand-primary-medium);
+}
+section.bandalarga .spr-TopicGroup .mdn-Topic-description {
+  color: #fff;
+}
+section.bandalarga .mdn-Tag--hat {
+  color: #fff;
+  margin-bottom: var(--spacing-stack-xxxs);
+}
+section.bandalarga .botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+section.bandalarga .mdn-Heading {
+  text-transform: uppercase;
+  color: #fff;
+  width: 310px;
+}
+@media screen and (min-width: 375px) {
+  section.bandalarga {
+    height: 962px;
+  }
+}
+@media screen and (min-width: 411px) {
+  section.bandalarga {
+    height: 1019px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  section.bandalarga {
+    background: url(https://www.claro.com.br/) no-repeat top;
+    background-size: 100% auto;
+    height: 580px;
+  }
+
+  .womantablet {
+    display: none !important;
+  }
+
+  section.bandalarga .spr-TopicGroup {
+    margin-top: 22px;
+    width: 300px;
+  }
+  section.bandalarga .banda-container {
+    margin-top: 109px;
+  }
+  section.bandalarga .mdn-Heading {
+    width: 316px;
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section.bandalarga {
+    background: url(https://www.claro.com.br/) no-repeat bottom;
+    height: 1000px;
+    margin-top: 55px;
+    padding-top: 280px;
+    background-position-y: 128px;
+  }
+  section.bandalarga .spr-TopicGroup {
+    margin-top: 22px;
+  }
+  section.bandalarga .banda-container {
+    margin-top: 164px;
+  }
+  section.bandalarga .mdn-Heading {
+    width: 453px;
+  }
+  section.bandalarga .botao {
+    justify-content: flex-start;
+  }
+}
+section.now {
+  background: #000;
+  height: 860px;
+}
+section.now .mdn-Heading {
+  margin-top: 32px;
+  font-weight: bold;
+  color: #fff;
+  border-left: 1px solid #e3262e;
+  padding-left: 10px;
+}
+section.now .mdn-Text {
+  margin-top: var(--spacing-stack-md);
+  margin-bottom: var(--spacing-stack-md);
+  color: #e3262e;
+  width: 255px;
+  padding-left: 12px;
+}
+section.now .logo-now {
+  margin-right: var(--spacing-inline-xs);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+section.now .logo-now img {
+  max-width: 100px;
+  margin-top: -10px;
+}
+section.now a {
+  margin-right: var(--spacing-inline-xxs);
+}
+section.now .btns-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+section.now .sub-tv {
+  display: flex;
+  justify-content: center;
+}
+section.now .acesse-now {
+  margin-bottom: 22px;
+}
+
+section.now .acesse-now img {
+  margin: 0 5px;
+}
+
+section.now .acesse-now p {
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+section.now .acesse-now p .mdn-Icon--lg,
+section.now .acesse-now p .mdn-Icon--sm {
+  color: #e3262e;
+  height: 25px;
+}
+@media (min-width: 768px) {
+  section.now {
+    height: 920px;
+  }
+  section.now .txt-now {
+    text-align: center;
+  }
+  section.now .txt-now .mdn-Heading {
+    text-align: left;
+    width: 700px;
+    font-size: 34px;
+    line-height: 47px;
+  }
+  section.now .txt-now .mdn-Text {
+    text-align: left;
+    width: 700px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  section.now .txt-now .acesse-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+  }
+  section.now a {
+    margin-right: var(--spacing-inline-xs);
+  }
+  section.now .btns-download {
+    padding-bottom: 0;
+  }
+  section.now .stores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section.now .btns-download {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section.now {
+    height: 620px;
+    padding: 60px 0 90px;
+  }
+  section.now .txt-now .mdn-Heading {
+    font-size: 26px;
+    line-height: 36px;
+    width: 500px;
+  }
+  section.now .txt-now .mdn-Text {
+    font-size: 20px;
+    line-height: 28px;
+    width: 450px;
+  }
+  section.now .txt-now .stores {
+    margin-left: 50px;
+  }
+  section.now .logo-now {
+    margin-right: 23px;
+    padding: 0;
+    margin-top: 10px;
+  }
+  section.now .btns-download {
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+  }
+  section.now a {
+    margin-right: 23px;
+  }
+  section.now .tv-now {
+    margin-top: var(--spacing-stack-lg);
+    margin-bottom: var(--spacing-stack-lg);
+    margin-left: var(--spacing-inline-xl);
+  }
+  section.now .sub-tv {
+    display: initial;
+  }
+}
+section.txtlegal {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+section.txtlegal p,
+.mdn-Footer-disclaimer {
+  font-family: "AMX";
+}
+
+@media screen and (min-width: 1000px) {
+  .new-box-oferta {
+    width: 460px;
+    height: 420px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .womanmobile {
+    display: none;
+  }
+
+  .content-all {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
+  .content-left {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .content-left::before {
+    content: "";
+    width: 2px;
+    height: 92px;
+    background-color: white;
+    display: block;
+    margin: -10px auto;
+    position: absolute;
+    left: 48%;
+  }
+  .content-right {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .borderbottom {
+    width: 100%;
+    height: 5px;
+    display: flex;
+  }
+
+  .border-left {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 13px;
+    top: 10px;
+  }
+
+  .border-right {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 68px;
+    top: 10px;
+  }
+
+  .plusicon {
+    position: relative;
+    right: 129px;
+    bottom: 3px;
+  }
+
+  .value-mega {
+    font-weight: var(--font-weight-bold);
+    font-size: 51px;
+  }
+
+  .mega {
+    font-weight: var(--font-weight-bold);
+    font-size: 42px;
+  }
+
+  .content-all-title-top {
+    font-weight: var(--font-weight-regular);
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .content-all-mid {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .content-left-mid {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-right-mid {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .price-all-mid {
+    width: 160px;
+    height: 82px;
+  }
+
+  .price-celphone {
+    display: flex;
+  }
+
+  .border-mid {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 28px;
+  }
+
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+    left: 64px;
+    top: 10px;
+  }
+
+  .prince-one {
+    font-weight: var(--font-weight-bold);
+    font-size: 46px;
+  }
+
+  .price-two {
+    font-weight: var(--font-weight-medium);
+    font-size: 40px;
+  }
+
+  .icons-title {
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+  }
+
+  .icons-title02 {
+    font-size: 10px;
+    font-weight: var(--font-weight-medium);
+  }
+
+  .icons-title03 {
+    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+  }
+
+  .border-footer {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-top: 25px;
+  }
+
+  .desktop-ooakla {
+    position: relative;
+    top: 199px;
+  }
+
+  .womantablet {
+    display: none;
+  }
+
+  #newmobile {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+  .desktop-ooakla {
+    display: none;
+  }
+
+  .desktopselo {
+    display: none;
+  }
+
+  .womantablet {
+    display: block;
+    position: relative;
+    bottom: 209px;
+    right: 179px;
+  }
+
+  .new-box-oferta {
+    width: 460px;
+    height: 420px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .content-all {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
+  .content-left {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .content-left::before {
+    content: "";
+    width: 2px;
+    height: 92px;
+    background-color: white;
+    display: block;
+    margin: -10px auto;
+    position: absolute;
+    left: 48%;
+  }
+  .content-right {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .borderbottom {
+    width: 100%;
+    height: 5px;
+    display: flex;
+  }
+
+  .border-left {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 13px;
+    top: 10px;
+  }
+
+  .border-right {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 68px;
+    top: 10px;
+  }
+
+  .plusicon {
+    position: relative;
+    right: 129px;
+    bottom: 3px;
+  }
+
+  .value-mega {
+    font-weight: var(--font-weight-bold);
+    font-size: 51px;
+    color: white;
+  }
+
+  .mega {
+    font-weight: var(--font-weight-bold);
+    font-size: 42px;
+    color: white;
+  }
+
+  .content-all-title-top {
+    font-weight: var(--font-weight-regular);
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .content-all-mid {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .content-left-mid {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-right-mid {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .price-all-mid {
+    width: 160px;
+    height: 82px;
+  }
+
+  .price-celphone {
+    display: flex;
+  }
+
+  .border-mid {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 28px;
+  }
+
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+    left: 64px;
+    top: 10px;
+  }
+
+  .prince-one {
+    font-weight: var(--font-weight-bold);
+    font-size: 46px;
+    color: white;
+  }
+
+  .price-two {
+    font-weight: var(--font-weight-medium);
+    font-size: 40px;
+    color: white;
+  }
+
+  .icons-title {
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+    color: white;
+  }
+
+  .icons-title02 {
+    font-size: 10px;
+    font-weight: var(--font-weight-medium);
+    color: white;
+  }
+
+  .icons-title03 {
+    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+    color: white;
+  }
+
+  .border-footer {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-top: 25px;
+  }
+
+  #mdn-row {
+    position: relative;
+  }
+  section.bandalarga {
+    background: url(https://www.claro.com.br/) no-repeat top;
+    height: 647px;
+    background-size: cover;
+    margin-top: -215px;
+  }
+
+  #mdn-row {
+    position: relative;
+  }
+
+  #newmobile,
+  .womanmobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 599px) {
+  .desktop-ooakla {
+    display: none;
+  }
+
+  .display-mobile {
+    display: block !important;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 910px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 100px;
+    background-position-y: 0px;
+    background-size: cover;
+  }
+
+  .claro-virtua {
+    padding-top: 0px !important;
+  }
+
+  .claro-na-copa > .container {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    bottom: 5rem;
+  }
+
+  .itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -15rem;
+    flex-direction: column;
+  }
+
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 17rem;
+  }
+
+  .claro-na-copa .direita {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 17rem;
+  }
+
+  .text-off {
+    font-weight: var(--font-weight-medium);
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 22rem;
+    text-transform: uppercase;
+  }
+
+  .promo {
+    display: none;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .newButton {
+    top: 60px !important;
+    cursor: pointer;
+  }
+
+  .display-tablet {
+    display: none;
+    position: relative;
+    bottom: 27px;
+  }
+
+  .computed {
+    position: relative;
+    top: 20px;
+    display: none;
+  }
+
+  .multi {
+    position: relative;
+    left: 0px;
+    top: 50px;
+  }
+
+  section.txtlegal p {
+    text-align: initial;
+  }
+
+  .claro-tv {
+    background: #fff;
+  }
+  .price-desktop {
+    display: none !important;
+  }
+
+  .womanmobile {
+    display: none !important;
+    position: relative;
+    left: 0%;
+    top: 10rem;
+  }
+
+  #desk-tab,
+  .desktopselo {
+    display: none;
+  }
+
+  .womantablet {
+    display: none !important;
+  }
+
+  .new-box-oferta {
+    width: 460px;
+    height: 420px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .content-all {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+
+  .content-left {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .content-left::before {
+    content: "";
+    width: 2px;
+    height: 92px;
+    background-color: white;
+    display: block;
+    margin: -10px auto;
+    position: absolute;
+    left: 48%;
+  }
+  .content-right {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .borderbottom {
+    width: 100%;
+    height: 5px;
+    display: flex;
+  }
+
+  .border-left {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 13px;
+    top: 10px;
+  }
+
+  .border-right {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 68px;
+    top: 10px;
+  }
+
+  .plusicon {
+    position: relative;
+    right: 129px;
+    bottom: 3px;
+  }
+
+  .value-mega {
+    font-weight: var(--font-weight-bold);
+    font-size: 51px;
+    color: white;
+  }
+
+  .mega {
+    font-weight: var(--font-weight-bold);
+    font-size: 42px;
+    color: white;
+  }
+
+  .content-all-title-top {
+    font-weight: var(--font-weight-regular);
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .content-all-mid {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .content-left-mid {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-right-mid {
+    width: 50%;
+    height: 100px;
+    text-align: center;
+  }
+
+  .price-all-mid {
+    width: 160px;
+    height: 82px;
+  }
+
+  .price-celphone {
+    display: flex;
+  }
+
+  .border-mid {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 28px;
+  }
+
+  .content-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+    left: 64px;
+    top: 10px;
+  }
+
+  .prince-one {
+    font-weight: var(--font-weight-bold);
+    font-size: 46px;
+    color: white;
+  }
+
+  .price-two {
+    font-weight: var(--font-weight-medium);
+    font-size: 40px;
+    color: white;
+  }
+
+  .icons-title {
+    font-size: 12px;
+    font-weight: var(--font-weight-medium);
+    color: white;
+  }
+
+  .icons-title02 {
+    font-size: 10px;
+    font-weight: var(--font-weight-medium);
+    color: white;
+  }
+
+  .icons-title03 {
+    font-size: 13px;
+    font-weight: var(--font-weight-bold);
+    color: white;
+  }
+
+  .border-footer {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-top: 25px;
+  }
+
+  section.produtos {
+    position: relative;
+    z-index: 3;
+    background: #f8f8f8;
+  }
+
+  .new-box-oferta-mobile {
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    right: 0px;
+    bottom: 99px;
+  }
+}
+
+/* Mobile */
+
+.mobile-first {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mobile-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  color: white;
+  padding: 10px;
+}
+
+.mobile-second-title {
+  font-size: 49px;
+  padding: 10px;
+  font-weight: var(--font-weight-bold);
+  color: white;
+}
+
+.mobile-left,
+.mobile-right {
+  width: 100px;
+  height: 2px;
+  background-color: white;
+  margin: 14px;
+}
+
+.mobile-plus-line {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-context-discoveryicon,
+.mobile-redes-sociais {
+  text-align: center;
+}
+
+.container-line-mob {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.mobile-last-line {
+  width: 90%;
+  height: 2px;
+  background-color: white;
+}
+
+/* Cards */
+
+.card-title {
+  color: black;
+  font-size: 13px;
+  font-weight: var(--font-weight-regular);
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-text {
+  color: black;
+  font-size: 42px;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  width: 238px;
+  display: flex;
+}
+
+.icon-discovery-mobile {
+  width: 238px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.and {
+  color: #e3262e;
+}
+
+.card-border {
+  display: flex;
+}
+
+.card-left,
+.card-right {
+  width: 80px;
+  height: 2px;
+  background-color: #707070;
+  margin: 15px;
+}
+
+.logo-claro-card {
+  text-align: center;
+}
+
+.oferta {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -12px;
+}
+
+.dados-preco {
+  padding-top: 15px;
+}
+
+.por {
+  font-weight: 400;
+  text-align: left;
+  font-size: 8px;
+  line-height: 12px;
+  display: block;
+  text-transform: uppercase;
+  color: #e3262e;
+}
+
+.apenas {
+  font-weight: 400;
+  text-align: left;
+  font-size: 8px;
+  line-height: 12px;
+  display: block;
+  text-transform: uppercase;
+  color: #e3262e;
+}
+
+.rs {
+  font-weight: var(--font-weight-bold);
+  font-size: 29px;
+  line-height: 1.25;
+  color: #e3262e;
+}
+
+.real {
+  font-weight: var(--font-weight-bold);
+  font-size: 73px;
+  line-height: 74px;
+  letter-spacing: -3px;
+  color: #e3262e;
+}
+
+.centavos {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: var(--font-weight-bold);
+  display: block;
+  margin-top: 3px;
+  color: #e3262e;
+}
+
+.mes {
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  display: block;
+  margin-left: 10px;
+  color: #e3262e;
+}
+
+.and {
+  font-size: 12px;
+  padding: 5px;
+  font-weight: var(--font-weight-medium);
+}
+
+.card-hr {
+  background-color: #707070;
+}
+
+.iconspace {
+  position: relative;
+  top: -3px;
+}
+
+.card-assine {
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: var(--font-weight-bold);
+  padding: 7px;
+}
+
+.card-assine-red {
+  color: #e3262e;
+  font-size: 32px;
+}
+
+.assine {
+  font-size: 12px;
+}
+
+.facil {
+  font-size: 32px;
+}
+
+.leve {
+  font-size: 12px;
+}
+
+.por12meses {
+  font-size: 11px;
+}
+
+.claro-control-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.gbcard {
+  color: #000;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 33px;
+}
+
+.celphone15 {
+  font-weight: var(--font-weight-bold);
+  font-size: 40px;
+}
+
+.celphonegb {
+  font-weight: var(--font-weight-medium);
+  font-size: 40px;
+}
+
+.redes-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: var(--font-weight-medium);
+  font-size: 10px;
+}
+
+.redes-card span {
+  padding: 5px;
+}
+
+.traga {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  text-transform: uppercase;
+  position: relative;
+  top: 40px;
+}
+
+.tragatext {
+  color: #000;
+
+  font-weight: var(--font-weight-medium);
+  font-size: 12px;
+}
+
+.leve {
+  color: #e3262e;
+
+  font-weight: var(--font-weight-bold);
+  font-size: 12px;
+}
+
+.lastcard {
+  padding: 7px;
+}
+
+button,
+.mdn-Button,
+.btn-cta {
+  font-family: "AMX";
+}
+
+.mdn-Button--primaryInverse {
+  background-color: #ffbc4a;
+  color: black;
+  border: none;
+}
+
+#btnMonteSeuCombo {
+  position: relative;
+  top: -3px;
+}
+
+.price-celphone {
+  padding: 8px 0px;
+}
+
+.content-icons img {
+  padding: 7px;
+}
+
+.space {
+  position: relative !important;
+  bottom: 10px !important;
+}
+
+.price-tablet {
+  display: none;
+}
+
+.container-line {
+  width: 100%;
+  display: flex;
+}
+
+.esquerda {
+  width: 50%;
+  height: 15px;
+}
+
+.direita {
+  width: 50%;
+  height: 15px;
+}
+
+/* 11-07 */
+
+.claro-tv {
+  padding-bottom: 60px !important;
+  background: #e3262e;
+  color: white !important;
+}
+
+.claro-tv h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.claro-tv .text p {
+  font-size: 21px !important;
+  line-height: 27px !important;
+  max-width: unset !important;
+  text-align: justify;
+}
+
+.claro-tv .text div img {
+  margin: 0 15px !important;
+  position: relative;
+}
+
+.claro-tv .text .btn-cta {
+  margin: 0px auto;
+}
+
+@media (min-width: 1180px) {
+  .claro-tv .text .btn-cta {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 830px) {
+  .claro-virtua p {
+    font-size: 22px !important;
+    line-height: 36px !important;
+    /* font-weight: normal !important; */
+  }
+
+  .claro-virtua .mdn-Row {
+    flex-direction: column-reverse;
+    top: 50px;
+  }
+
+  .mdn-Footer-logo {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 830px) {
+  header {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .claro-virtua-colorido {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .mobile-end {
+    justify-content: center;
+  }
+
+  .claro-tv .text div span {
+    font-size: 18px !important;
+  }
+}
+
+.claro-tv {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 1180px) {
+  .claro-tv {
+    padding-top: 40px;
+  }
+}
+
+.mdn-Footer-logo {
+  width: 50px !important;
+}
+
+.claro-tv .mdn-Row {
+  padding-right: 0;
+}
+
+.claro-tv .text {
+  padding: 0px 20px;
+}
+
+.claro-tv .text h3 {
+  font-size: 28px;
+  line-height: 40px;
+  color: #fff;
+  border-left: 2px solid white;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.claro-tv .text p {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #fff;
+  max-width: 95.6%;
+  margin-bottom: 20px 0;
+}
+
+.claro-tv .text div span {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  font-weight: var(--font-weight-medium);
+  display: flex;
+}
+
+.claro-tv .text div img {
+  margin: 0 5px;
+  filter: brightness(0) invert(1);
+}
+
+.claro-tv .text .btn-cta {
+  margin-top: 50px;
+  width: 142px;
+  height: 48px;
+  border-radius: 24px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 16px;
+  color: #e3262e;
+  font-weight: var(--font-weight-medium);
+}
+
+.claro-virtua {
+  background: #f8f8f8;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+.claro-virtua p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #5f646d;
+  margin: 30px 0;
+  font-weight: var(--font-weight-medium);
+}
+
+.claro-virtua p a {
+  text-decoration: underline;
+  color: #e3262e;
+}
+
+@media (width: 390px) {
+  .claro-virtua p {
+    font-size: 20px !important;
+  }
+
+  .claro-virtua {
+    padding-top: 0;
+  }
+
+  section.txtlegal {
+    background-color: #fff;
+    padding: 30px 0;
+  }
+
+  section.txtlegal p {
+    text-align: center;
+  }
+}
+
+@media (width: 375px) {
+  .claro-virtua p {
+    font-size: 19px !important;
+    text-align: justify;
+  }
+  .claro-virtua {
+    padding-top: 0;
+  }
+}
+
+@media (width: 360px) {
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 100px;
+    background-position-y: 0px;
+    background-size: cover;
+  }
+
+  .newButton {
+    top: -135px !important;
+    cursor: pointer;
+  }
+}
+
+@media (width: 393px) {
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 100px;
+    background-position-y: 0px;
+    background-size: cover;
+  }
+
+  .newButton {
+    top: -135px !important;
+    cursor: pointer;
+  }
+}
+
+@media (width: 390px) {
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 100px;
+    background-position-y: 0px;
+    background-size: cover;
+  }
+
+  .newButton {
+    top: -135px !important;
+    cursor: pointer;
+  }
+}
+
+@media (width: 412px) {
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 775px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 100px;
+    background-position-y: 0px;
+    background-size: cover;
+  }
+
+  .newButton {
+    top: -62px !important;
+    cursor: pointer;
+  }
+}
+
+@media (width: 412px) {
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 100px;
+    background-position-y: 0px;
+    background-size: cover;
+  }
+
+  .newButton {
+    top: -135px !important;
+    cursor: pointer;
+  }
+}
+
+@media (width: 375px) {
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 100px;
+    background-position-y: 0px;
+    background-size: cover;
+  }
+
+  .newButton {
+    top: -135px !important;
+    cursor: pointer;
+  }
+}
+
+@media (width: 414px) {
+  .claro-na-copa .esquerda {
+    display: flex;
+    flex: 1;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+  }
+
+  .claro-na-copa {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://www.claro.com.br/);
+    background-position: center;
+    margin-top: 100px;
+    background-position-y: 0px;
+    background-size: cover;
+  }
+
+  .newButton {
+    top: -135px !important;
+    cursor: pointer;
+  }
+}
+
+/* TABLET VERTICAL */
+
+@media (width: 768px), (width: 820px) {
+  section.produtos {
+    top: -260px !important;
+  }
+}
+
+@media (width: 768px), (width: 820px) {
+  section.banner {
+    height: 680px !important;
+  }
+
+  section.banner .asset-banner {
+    right: -0% !important;
+    top: 50px;
+  }
+
+  section.banner .banner-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  section.banner .banner-wrapper .asset-banner {
+    max-width: 70%;
+  }
+
+  section.txtlegal p {
+    text-align: center;
+  }
+
+  section.produtos {
+    position: relative;
+    z-index: 3;
+    background: #f8f8f8;
+  }
+
+  .claro-tv {
+    padding-top: 80px;
+  }
+
+  .mdn-Swiper-slide .mdn-Card {
+    width: 285px !important;
+    max-width: unset !important;
+  }
+
+  .claro-tv .text h3 {
+    font-size: 47px !important;
+    line-height: 52px !important;
+  }
+
+  .claro-tv .text p {
+    font-size: 23px !important;
+    line-height: 35px !important;
+  }
+
+  .claro-virtua-colorido {
+    width: unset !important;
+  }
+
+  .claro-virtua p {
+    font-size: 24px !important;
+    line-height: 40px !important;
+  }
+
+  .mdn-Footer-content {
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .mdn-Footer {
+    padding: 0;
+  }
+}
+
+/*  TABLET HORIZONTAL */
+
+@media (width: 1024px), (width: 1180px) {
+  section.produtos {
+    margin-top: -400px;
+    position: relative;
+    top: -400px;
+    background: #f8f8f8;
+  }
+
+  .claro-tv {
+    margin-top: -255px;
+    padding-top: 270px;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .arrows.hidden-md {
+    display: flex !important;
+  }
+}
+
+.price {
+  color: #e3262e;
+
+  font-weight: var(--font-weight-bold);
+  font-size: 45px;
+}
+
+.mega-tex {
+  color: #000;
+
+  font-weight: var(--font-weight-medium);
+}
+
+.newButton {
+  width: 132px;
+  height: 48px;
+  background-color: white;
+  color: #e3262e;
+  border: none;
+  border-radius: 39px;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+
+.card-02 {
+  position: relative;
+  top: 21px;
+  padding-bottom: 17px;
+}
+
+.card-03 {
+}
+
+.card-04 {
+}
+
+.button-card {
+  width: 151px;
+  height: 47px;
+  background-color: #ffbc4a;
+  color: #000;
+  font-weight: normal;
+  border: none;
+  border-radius: 31px;
+  cursor: pointer;
+  position: relative;
+  bottom: -8px;
+}
+
+@media (min-width: 1900px) {
+  .claro-na-copa {
+    margin-top: 315px !important;
+    background-size: cover;
+    background-position-y: 0px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .claro-na-copa {
+    margin-top: 317px;
+    background-size: cover;
+    background-position-y: 0px;
+  }
+}
+
+@media (width: 820px) {
+  .claro-na-copa {
+    width: 100%;
+    height: 750px;
+    background-image: url(https://www.claro.com.br/);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 94px;
+    background-size: cover;
+  }
+
+  section.produtos {
+    position: relative;
+    z-index: 3;
+  }
+  section.produtos {
+    background: none !important;
+    position: relative;
+    z-index: 3;
+    margin-bottom: -270px;
+  }
+}
+
+.display-mobile {
+  display: none;
+}
+
+@media (width: 768px) {
+  .claro-na-copa {
+    width: 100%;
+    height: 750px;
+    background-image: url(https://www.claro.com.br/);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 94px;
+    background-size: cover;
+  }
+
+  section.txtlegal p {
+    text-align: center;
+  }
+
+  section.produtos {
+    background: none !important;
+    position: relative;
+    z-index: 3;
+    margin-bottom: -270px;
+  }
+
+  .claro-tv {
+    padding-top: 80px;
+  }
+
+  #mdn-row {
+    top: 10px;
+  }
+}
+@media (width: 912px) {
+  .mdn-u-alignItems-xs-end {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+/* BANNER 05-12 */
+
+section.banner {
+  height: 860px;
+  width: 100%;
+  background: #f8f8f8;
+}
+
+
+@media (width: 414px) {
+  section.banner {
+    height: 900px;
+    width: 100%;
+    background: #f8f8f8;
+  }
+  
+}
+
+
+section.banner .oferta-desk,
+section.banner .oferta-tab {
+  display: none;
+}
+
+section.banner .oferta-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+section.banner .asset-banner {
+  position: relative;
+  right: 20%;
+}
+
+section.banner .oferta-box a {
+  position: relative;
+  z-index: 2;
+}
+
+section.banner .oferta-box img {
+  margin-bottom: 10px;
+  margin-top: -80px;
+  width: 100%;
+}
+
+/* BANNER TABLET */
+
+@media (width: 820px), (width: 768px) {
+  section.banner {
+    height: 831px;
+  }
+
+  section.banner .oferta-desk,
+  section.banner .oferta-mob {
+    display: none;
+  }
+
+  section.banner .oferta-tab {
+    display: block;
+  }
+  section.banner .oferta-box img {
+    width: unset;
+    margin-top: -60px;
+  }
+
+  section.banner .oferta-box {
+    display: flex;
+    padding-top: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 115px;
+  }
+}
+
+/* BANNER DESK */
+@media (min-width: 1000px) {
+  section.banner {
+    height: 550px;
+    padding-top: 50px;
+  }
+
+  section.banner .banner-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between !important;
+    height: 80%;
+  }
+
+  section.banner .banner-wrapper .oferta {
+    max-width: 90%;
+  }
+
+  section.banner .banner-wrapper .asset-banner {
+    max-width: 65%;
+    margin-bottom: -260px;
+  }
+
+  section.banner .oferta-box {
+    max-width: 50%;
+    margin: 0;
+    padding-top: 70px;
+  }
+
+  section.banner .oferta-box img {
+    width: unset;
+  }
+
+  section.banner .oferta-tab,
+  section.banner .oferta-mob {
+    display: none;
+  }
+
+  section.banner .oferta-desk {
+    display: block;
+  }
+
+  section.produtos {
+    background: #f8f8f8;
+  }
+
+  section.banner .asset-banner {
+    position: relative;
+    right: 0;
+  }
+}
